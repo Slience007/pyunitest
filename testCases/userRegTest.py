@@ -16,7 +16,7 @@ class regTest(unittest.TestCase):
 
         #注册TestUser3
         self.user3.userReg()
-    @unittest.skip("skip test case of user reg")
+    #@unittest.skip("skip test case of user reg")
     def test_pwdlenerr_L1(self):
         print("test case:test_pwdlenerr_L1")
         res = self.user1.userReg()
