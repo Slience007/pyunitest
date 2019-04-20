@@ -30,7 +30,7 @@ class regTest(unittest.TestCase):
         self.assertEqual(res,"regSucess")
 
     #测试场景：用户名重名
-    #@unittest.skipUnless(1<0,"skip unless.")
+    ##@unittest.skipUnless(1<0,"skip unless.")
     def test_regagain_L1(self):
         print("test case:test_regagain_L1")
         res = self.user3.userReg()
