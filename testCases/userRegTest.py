@@ -23,7 +23,7 @@ class regTest(unittest.TestCase):
         self.assertEqual(res,"passwordLenError")
 
     #测试场景：正常注册
-    @unittest.skipIf(2>1,"skip if condiction")
+    #@unittest.skipIf(2>1,"skip if condiction")
     def test_regsucess_L0(self):
         print("test case:test_regsucess_L0")
         res = self.user2.userReg()
